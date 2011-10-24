@@ -1,0 +1,13 @@
+name = Minnelli
+description = Tableless, recolorable, multi-column, fixed width theme.
+version = VERSION
+core = 6.x
+base theme = garland
+stylesheets[all][] = minnelli.css
+
+; Information added by drupal.org packaging script on 2011-08-13
+version = "6.x-dev"
+core = "6.x"
+project = "drupal"
+datestamp = "1313194334"
+

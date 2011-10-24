@@ -1,0 +1,31 @@
+<?php
+
+function fimage_galery_theme($existing, $type, $theme, $path) {
+    return array(
+        'menu' => array(
+            'arguments' => array(),
+            'template' => 'menu',
+            'path' => drupal_get_path('module', 'fimage_galery') . '/theme/',
+        ),
+    );
+}
+
+function fimage_galery_block($op = 'list', $delta = 0) {
+    switch ($op) {
+        case 'list':
+            $info[0] = array(
+                'info' => t('My FimageGalery'),
+                'cache' => BLOCK_NO_CACHE,
+            );
+            return $info;
+            break;
+        case 'view':
+            $module_path = drupal_get_path('module', 'fimage_galery');
+            drupal_add_css($module_path . '/theme/css/fimage_galery.css', 'module');
+            drupal_add_js($module_path . '/theme/js/fimage_galery.js', 'module');
+            $block['subject'] = t('My FimageGalery');
+            $block['content'] = theme("menu");
+            return $block;
+            break;
+    }
+}

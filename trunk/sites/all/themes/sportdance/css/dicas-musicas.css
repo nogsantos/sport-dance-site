@@ -1,0 +1,29 @@
+.views-field-field-dicas-musica-descricao-value{
+    padding: 5px 5px 5px 5px !important;
+}
+
+.dicas_musica_imagem{
+    position: relative !important;
+    float: left !important;
+}
+.dicas_musica_titulo{
+    position: relative !important;
+    float: left !important;
+    left: 3px !important;
+}
+.views-field-field-dicas-musica-descricao-value, .dicas_musica_desc{
+    position: relative !important;
+    float: left !important;
+    text-align: justify !important;
+    bottom: 0px;
+    left: 0px;
+    width: 300px;
+}
+.dicas_musica_link, .views-field-view-node{
+     position: relative !important;
+     float: right !important;
+     right: 0px !important;
+     top: 0px;
+     text-align: right;
+     width: 100%;
+}

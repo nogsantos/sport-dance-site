@@ -1,0 +1,4 @@
+name = "Image Galery by me"
+description = "Image galery."
+core = 6.x
+package = Galery

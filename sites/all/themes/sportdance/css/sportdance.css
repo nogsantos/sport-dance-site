@@ -1,0 +1,698 @@
+body{
+    background-image: url("../images/bgTopo.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #ECECEC;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 15px !important;
+    color: #666;
+}
+a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+a:hover{
+    color: #999;
+}
+h1, h2{
+    color: #666;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: #999 1px 1px 1px;
+}
+.no-textshadow h1, h2{
+    color: #666;
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+}
+#frontContent{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px 0px 0px 0px;
+}
+#wrapperHeader { 
+    margin: 0 auto;
+    width: 990px;
+    height: 138px;
+}
+#wrapperFooter { 
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 300px;
+    background-color: #900;
+}
+#headerLimmit{
+    width: 900px;
+    margin: 0;
+}
+#posLogo{
+    position: relative;
+    float: left;
+    padding: 5px 5px 5px 0;
+}
+#wrapperBanner{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+#wrapperMenu{
+    position: relative;
+    width: 100%;
+}
+#menu{
+    margin: 0 auto !important;
+    width: 990px !important;
+}
+#wrapperBannerInt{
+    width: 100%;
+    height: 100px;
+}
+#mainBanner{
+    margin: 0 auto;
+    width: 990px;
+    background-color: #fff;
+}
+#mainBannerInt{
+    margin: 0 auto;
+    width: 990px;
+    background-color: #fff;
+}
+#slogan{
+    position: relative;
+    float: right;
+    background-image: url(../images/slogan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 40px;
+    width: 623px;
+    height: 72px;
+    z-index: 100;
+}
+div#apresentacaoSportDance{
+    position: relative !important;
+    float: left;
+    width: 100%;
+}
+div#apresentacaoSportDance div#bemVindoSportDance{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+div#apresentacaoSportDance div#tabsVideosFotos{
+    position: relative;
+    float: right;
+    width: 50%;
+}
+div#sportDanceDanca{
+    position: relative !important;
+    float: left;
+    border-bottom: 1px dotted #666;
+    border-top: 1px dotted #666;
+    width: 100%;
+}
+div#dicasDeMusica{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+div#dicasDeMusica div#dicasDeMusicaBloco1{
+    position: relative;
+    float: left;
+    width: 48%;
+    height: 150px;
+    border: 1px solid #ECECEC !important;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+    overflow: auto;
+}
+div#dicasDeMusica div#dicasDeMusicaBloco1 img{
+    border: 1px solid #E90019;
+}
+div#dicasDeMusica div#dicasDeMusicaBloco2{
+    position: relative;
+    float: left;
+    width: 48%;
+    height: 150px;
+    border: 1px solid #ECECEC !important;
+    padding: 5px 5px 5px 5px;
+    overflow: auto;
+}
+div#dicasDeMusica div#dicasDeMusicaBloco2 img{
+    border: 1px solid #E90019;
+}
+#footer{
+    border-top: 1px dotted #666;
+    margin: 0 auto !important;
+    width: 990px !important;
+}
+div#subFooter{
+    margin: 0 auto !important;
+    width: 990px !important;
+    font-size: 12px;
+    margin-top: 20px !important;
+    margin-bottom: 90px !important;
+}
+div#breadcrumbSportDance{
+    position: relative;
+    margin: 0 auto !important;
+    width: 990px !important;
+    padding-bottom: 10px;
+}
+.linkDestaque a:hover{
+    margin: 0 5px  !important;
+    padding: 5px 15px !important;
+    text-decoration: none !important;
+    background-color: #999 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    box-shadow:0px 2px 10px #333333 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+/**moderniz*/
+.no-boxshadow .linkDestaque a:hover {
+    border: 1px solid #CCC;
+    border-bottom: 3px solid #CCC;
+}
+div#subFooter #sportDanceCpr{
+    position: relative;
+    float: left;
+}
+div#subFooter #developBy{
+    position: relative;
+    float: right;
+}
+#page-wrapper{    
+    padding: 5px;
+    background-color: #fff !important; 
+    margin: 0 auto !important;
+    width: 990px !important;
+    margin-bottom: 10px !important;
+    box-shadow:0px 2px 10px #333333 !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
+}
+/*menu*/
+/*#menu{
+    position: relative;
+    float: right;
+    top: 0px;
+    width: 60%;
+    height: 85px;
+    color: #2F0909;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: transparent;
+}
+#menu ul.menu-topo, ul.menu-topo li, ul.menu-topo ul {
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul.menu-topo {
+    position: relative;
+    z-index: 999;
+    float: left;
+}
+#menu ul.menu-topo li {
+    float: left;
+    line-height: 1.3em;
+    vertical-align: middle;
+    font-family: Arial;
+    color: #333;
+    font-size: 10px;
+    font-weight: normal;
+    border-right-style: inset;
+    border-width: 0px 1px 0px 0; 
+    border-color: #903C38;
+}
+#menu ul.menu-topo li a{
+    float: left;
+    line-height: 1.4em;
+    vertical-align: middle;
+    font-family: Arial;
+    color: #333;
+    font-size: 2.6ex;
+    font-weight: normal;
+}
+#menu ul.menu-topo li.hover, ul.menu-topo li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+#menu ul.menu-topo ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+}
+#menu ul.menu-topo ul li {
+    float: none;
+}
+#menu ul.menu-topo ul ul {
+    top: 1px;
+    left: 99%;
+}
+#menu ul.menu-topo li:hover > ul {
+    visibility: visible;
+}
+#menu ul.menu-topo {
+    font-weight: bold;
+}
+#menu ul.menu-topo li {
+    padding: 25px 10px;
+    margin-top: 5px;
+}
+#menu ul.menu-topo li.hover, ul.menu-topo li:hover {
+    background-image: url(../images/bgMenuHover.png);
+    background-repeat: repeat-x;
+}
+#menu ul.menu-topo a:link, ul.menu-topo a:visited	{ 
+    color: #000;
+    text-decoration: none; 
+}
+#menu ul.menu-topo a:hover { 
+    color: #000;
+}
+#menu ul.menu-topo a:active {
+    color: #333;
+}
+#menu ul.menu-topo ul {
+    width: 219px; 
+}
+.normal{
+    background-image: url(../images/bgMenu.png);
+    background-repeat: repeat-x;
+}
+#menu li *.normal {
+    vertical-align: middle;    
+    height: 14px;
+    font-family: Arial;
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+    background-image: url(../images/bg_subMenu.png);
+    background-repeat: repeat-x;
+}
+#menu li *.normal a{
+    font-family: Arial;
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.first{
+    background-image: url(../images/bgMenuFirst.png);
+    background-repeat: no-repeat;
+    width: auto;
+}
+#menu li *.first {
+    height: 14px;
+    font-family: Arial;
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+}
+#menu li *.first a{
+    padding-top: 5px;
+    font-family: Arial;
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+}
+.last{
+    background-image: url(../images/bgMenuLast.png);
+    background-repeat: repeat-x;
+    width: auto;
+    border-right: 0 !important;
+}
+#menu li *.last {
+    height: 20px;
+    font-family: Arial;
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+}
+#menu li *.last a{
+    padding-top: 2px;
+    font-family: Arial;
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+}
+#menu ul.menu-topo li ul li { 
+    border-style: solid;
+    border-width: 0px 0px 0px 0; 
+}
+#menu ul.menu-topo li ul li.first:hover {
+    background-image: url(../images/bg_subMenu-First_hover.png);
+    background-repeat: repeat-x;
+    color: #666;
+}
+#menu ul.menu-topo li ul li.last:hover {
+    background-image: url(../images/bg_subMenu-Last_hover.png);
+    background-repeat: repeat-x;
+    color: #666;
+}
+#menu ul.menu-topo li ul li.normal:hover {
+    background-image: url(../images/bg_subMenu_hover.png);
+    background-repeat: repeat-x;
+    color: #666;
+}*/
+/* fim do css do menu do topo */
+.front .jcarousellite{
+    background-color: #EFE5E5 !important;
+}
+.front .jcarousellite .item-list{
+    border: 0 !important;
+    background-color: transparent !important;
+}
+.front .jcarousellite-prev{
+    position: absolute;
+    left: 10px;
+    top: 170px;
+    z-index: 9999;
+}
+.front .jcarousellite-next{
+    position: absolute;
+    right: 10px;
+    top: 170px;
+    z-index: 9999;
+}
+#sportDanceDancaContent{
+    position: relative;
+    height: 250px;
+}
+#mascoteMenor{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/mascodeMenor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 314px;
+    height: 516px;
+    z-index: -1;
+}
+#mascoteMaior{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-image: url(../images/mascodeMaior.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 402px;
+    height: 849px;
+    z-index: -1;
+}
+div#linkPagDicasMusica{
+    position: relative;
+    float: left;
+    width: 98%;
+    text-align: right;
+    margin: 10px 0 10px 0;
+}
+#sportDanceParceiros{
+    position: relative;
+}
+#sportDanceMidiasSociais{
+    position: relative;
+    width: 100%;
+}
+#facebook{
+    position: relative;
+}
+#twitter{
+    position: relative;
+}
+#youtube{
+    position: relative;
+}
+#sportDanceSiteMap {
+    bottom: 55px;
+    float: right;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 70%;
+}
+#sportDanceSiteMap a{
+    color: #666;
+    font-weight: bold !important;
+}
+#sportDanceSiteMap a:hover{
+    font-weight: bold !important;
+    color: #999;
+}
+#sportDanceSiteMap ul li{
+    list-style: none outside none;
+    display: inline;
+    padding: 25px 25px;
+    width: 100%;
+}
+#sportDanceSiteMap li ul {
+    display: none;
+}
+#sportDanceSiteMap li a{
+    vertical-align: middle;
+    font-family: Arial;
+    font-size: 1.5ex;
+    font-weight: normal;
+    width: 100%;
+}
+#sportDanceSiteMap li li{
+    display: none;
+}
+.rotor-items {
+    margin: 10px !important;
+    position: relative !important;
+    float: left !important;
+    text-align: center !important;
+}
+.emvideo-emvideo .emvideo-thumbnail-replace-full-default-external-1{
+    text-align: center !important;
+}
+
+#media-youtube-default-external-object-2 {  
+    position: relative !important;     
+    float: left !important;     
+    left: 40px !important; 
+    margin-bottom: 10px !important;
+}
+#linkMaisVideos{
+    margin-bottom: 20px !important;
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+.page-dicas-de-musicas .views-row img{
+    border: 1px solid red;
+}
+.page-dicas-de-musicas .views-row{
+    border-bottom: 1px dotted #666;
+    margin: 5px;
+    position: relative;
+    float: left;
+    width: 95%;
+    padding: 10px;
+}
+.page-dicas-de-musicas .views-row .views-field-field-dicas-musica-imagem-fid{
+    position: relative;
+    float: left;
+}
+.page-dicas-de-musicas .views-row .views-field-title{
+    position: relative;
+    float: left;
+    left: 5px;
+    width: 70%;
+}
+.page-dicas-de-musicas .views-row .views-field-body{
+    position: relative;
+    float: left;
+    left: 5px;
+    width: 60%;
+    text-align: justify;
+}
+.page-dicas-de-musicas .views-row-last{
+    border-bottom: 0px !important;
+    margin: 10px 10px 10px 10px;
+}
+
+.page-galeria #content{
+    height: 550px;
+}
+.page-galeria .views-row{
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/**capa galeria fotos*/
+.page-galeria .views-row .views-field-field-capa-img-foto-fid{
+    position: relative;
+}
+.page-galeria .views-row .views-field-field-capa-img-foto-fid img:hover {
+    box-shadow:0px 2px 10px #333333 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 10px !important;
+}
+.page-galeria .no-boxshadow .views-row .views-field-field-capa-img-video-fid img:hover {
+    border: 1px solid #666;
+}   
+/**capa galeria videos*/
+.page-galeria .views-row .views-field-field-capa-img-video-fid{
+    position: relative;
+    
+}
+.page-galeria .views-row .views-field-field-capa-img-video-fid img:hover {
+    box-shadow:0px 2px 10px #333333 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 10px !important;
+}
+.page-galeria .no-boxshadow .views-row .views-field-field-capa-img-video-fid img:hover {
+    border: 1px solid #666;
+}
+#content-area{
+    position: relative;
+    float: left;
+}
+#mostraTituloCapa{
+    font-family: 'Sansita One', cursive;
+    position: relative;
+    float: left;
+    left: 0px;
+    width: 100%;
+    margin-top: 10px;
+    display: none;
+    font-size: 3em;
+    text-shadow: #999 1px 1px 1px;
+}
+.no-textshadow #mostraTituloCapa{
+    color: #666;
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+}
+#block-views-bloco_ultimas_fotos-block_1{
+    position: relative !important;
+    float: left !important;
+}
+#titleCapaGaleriaPrincipal{
+    width: 100%;
+    padding-left: 5px;
+}
+#bodyCapaGaleriaPrincipal{
+    width: 100%;
+    padding-left: 5px;
+    text-align: justify;
+}
+#tabelaGfPrincipal img{
+    border: 1px solid red;
+}
+.view-bloco-ultimas-fotos{
+    width: 100%;
+    vertical-align: top;
+}
+.view-bloco-ultimas-fotos img{
+    border: 1px solid red; 
+}
+.titleUltimasFotos{
+    width: 60%;
+}
+
+/*FORM DE CONTATO*/
+/*Nome*/
+#edit-name-wrapper{
+    position: relative;
+    float: left;
+}
+#edit-name-wrapper label{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#edit-name-wrapper #edit-name{
+    position: relative;
+    float: left;
+}
+/*email*/
+#edit-mail-wrapper{
+    position: relative;
+    float: left;
+}
+#edit-mail-wrapper label{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#edit-mail-wrapper #edit-mail{
+    position: relative;
+    float: left;
+}
+/*assunto*/
+#edit-subject-wrapper{
+    position: relative;
+    float: left;
+}
+#edit-subject-wrapper label{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#edit-subject-wrapper #edit-subject{
+    position: relative;
+    float: left;
+}
+/*mensagem*/
+#edit-message-wrapper{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#edit-message-wrapper label{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#edit-message-wrapper #edit-message{
+    position: relative;
+    float: left;
+}
+#edit-message-wrapper .grippie{
+    display: none;
+}
+#edit-message-wrapper .jqTransformTextarea{
+    position: relative;
+    float: left;
+}
+#edit-message-wrapper .jqTransformTextarea #edit-message{
+    width: 600px !important;
+    height: 150px !important;
+}
+#edit-message-wrapper #edit-message{
+    position: relative !important;
+    float: left !important;
+}
+/*botão*/
+#contact-mail-page #edit-submit{
+    position: relative;
+    float: right;
+    right: 145px;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+

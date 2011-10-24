@@ -1,0 +1,12 @@
+name = Help
+description = Manages the display of online help.
+package = Core - optional
+version = VERSION
+core = 6.x
+
+; Information added by drupal.org packaging script on 2011-08-13
+version = "6.x-dev"
+core = "6.x"
+project = "drupal"
+datestamp = "1313194334"
+

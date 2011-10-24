@@ -1,0 +1,15 @@
+#mensagemHome .odd{
+    background: transparent !important;
+    border-bottom: 0px !important;
+}
+
+#mensagemHome img{
+    position: relative !important;
+    float: left !important;
+    left: 0 !important;
+    text-align: left !important;
+}
+#mensagemHome p{
+    margin-left: 25px !important;
+    text-align: justify !important;
+}

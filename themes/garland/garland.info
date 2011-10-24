@@ -1,0 +1,14 @@
+name = Garland
+description = Tableless, recolorable, multi-column, fluid width theme (default).
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[print][] = print.css
+
+; Information added by drupal.org packaging script on 2011-08-13
+version = "6.x-dev"
+core = "6.x"
+project = "drupal"
+datestamp = "1313194334"
+
